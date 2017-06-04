@@ -39,7 +39,7 @@ def run():
 	print("running...")
 	[a, b] = gradient_descent_runner(points_array, init_a, init_b, learning_rate, iteration_nums)
 	print([a, b])
-	print ("After {0} iterations b = {1}, m = {2}, error = {3}".format(iteration_nums, a, b, compute_error_for_line_given_points(points_array, a, b)))
+	print ("After {0} iterations a = {1}, b = {2}, error = {3}".format(iteration_nums, a, b, compute_error_for_line_given_points(points_array, a, b)))
 
 if __name__ == '__main__':
 	run()
